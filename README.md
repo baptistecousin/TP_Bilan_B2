@@ -17,10 +17,10 @@ cd /opt/zabbix
 
 on récupère les fichiers Zabbix officiels avec les commandes :
 
-cd /opt
+** cd /opt
 sudo git clone https://github.com/zabbix/zabbix-docker.git
 cd zabbix-docker
-sudo chown -R "$USER":"$USER" .
+sudo chown -R "$USER":"$USER" . **
 
 On peut écrire ensuite le fichier docker-compose yaml ou comme nous, choisir un fichier déjà ecrit en tapant ces commandes :
 
