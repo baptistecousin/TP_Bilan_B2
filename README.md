@@ -1,7 +1,7 @@
 # TP_Bilan_B2
 TP ou l'on installe Docker avec un script d'installation automatique. Puis installation avec Docker d'un Zabbix et de Wordpress.
 
-# Il est possible de consulter le PDF "Explications" join dans le repository afin d'avoir plus de details et des images
+# Il est possible de consulter le PDF "Explications" joint dans le repository afin d'avoir plus de details et des images
 
 
 ## Installation de Docker à l'aide du script.sh
