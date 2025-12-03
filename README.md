@@ -58,9 +58,9 @@ Les fichiers yml contiennent tous les paramètres d’une installation, on peut 
 
 
 ## Envoi des fichiers vers GitHub :
-Pour envoyer les fichiers vers Github, nous allons utiliser Git. S’il n’est pas installé, l’installer en faisant apt update && apt install git -y
-J’ai placé mes fichiers dans un dossier /pour_git /.
+Pour envoyer les fichiers vers Github, nous allons utiliser Git. S’il n’est pas installé, il faut l’installer en faisant apt update && apt install git -y
+J’ai placé mes fichiers dans un dossier /pour_git/.
 Je renomme ma branche principale en « main » avec la commande : git branch -M main
 Ensuite, je fais un git remote add origin https://github.com/baptistecousin/TP_Bilan_B2
-Je fast un git pull afin de récupérer le readme.md crée directement depuis github. Ensuite, on fait un git add . afin d’ajouter tous les fichiers.
+Je fais un git pull afin de récupérer le readme.md crée directement depuis github. Ensuite, on fait un git add . afin d’ajouter tous les fichiers.
 Puis un premier git commit et enfin un git push.
